@@ -2,7 +2,7 @@
 
 comando de Busqueda herramientas:
 ```
-find /usr/share/responder/ -name "error.log" -print
+find /usr/share/responder/ -name "MultiRelay.py" -print
 ```
 
 1. Identify network systems that do not require SMB message validation
