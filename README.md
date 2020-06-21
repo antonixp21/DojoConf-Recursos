@@ -14,7 +14,9 @@ find /var/log/ -name "error.log" -print
 ```
 cd /usr/share/responder
 ```
-    * gedit Responder.conf
+```
+gedit Responder.conf
+```
 3. Open the Responder.conf file and set the value of SMB and HTTP to Off
     * **Responder.py** -I eth0 -rdw
 4. Wait for creds
