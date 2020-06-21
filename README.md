@@ -6,9 +6,9 @@ find /usr/share/responder/ -name "MultiRelay.py" -print
 find /usr/share/responder/ -name "ntlmrelayx.py" -print
 ```
 
-1. Identify network systems that do not require SMB message validation
+1. Identify network systems that do not require SMB message validation to detect machine with SMB signing:disabled.
 ```
-Run python  **RunFinger.py -i IP_Range** to detect machine with SMB signing:disabled.
+python RunFinger.py -i 192.168.0.0/24
 ```
 2. Configure Impacket’s NTLMrelayx to target those systems
 ```
