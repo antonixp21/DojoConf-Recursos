@@ -1,5 +1,10 @@
 # DojoConf-Recursos
 
+Shared Folder
+```
+\\ScanFolder\c$
+```
+
 Disable SMB Signing
 ```
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanWorkStation\Parameters" /v "RequireSecuritySignature" /t REG_DWORD /d 0 /f
