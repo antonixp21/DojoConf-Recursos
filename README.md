@@ -9,6 +9,7 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 3) Ejecutar el ejecutable (doble clic) "Execute-ACLight2.bat" 
 4) Revisare los archivos en la carpeta ACLight-master\Results
 ```
+![Demo ACLight](https://github.com/Hechtov/Photos/raw/master/ACLight/ACLight-v2.gif)
 2. [**Ping Castle**](https://github.com/vletoux/pingcastle): is a tool designed to assess quickly the Active Directory security level with a methodology based on risk assessment and a maturity framework.
 3. [**ADRecon**](https://github.com/sense-of-security/ADRecon): is a tool which gathers information about the Active Directory and generates a report.
 4. [**PowerView**](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1): is a tool to enumerate permissions in AD.
