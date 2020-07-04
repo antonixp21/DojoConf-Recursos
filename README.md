@@ -4,7 +4,7 @@
 1. [**ACLight**](https://github.com/cyberark/ACLight) : A tool for advanced discovery of Privileged Accounts - including Shadow Admins.
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
-1) Descargar el archivo zip que contiene los scripts y descomprimirlos
+1) Descargar el archivo zip (https://github.com/cyberark/ACLight/archive/master.zip)  que contiene los scripts y descomprimirlos
 2) Ir a las carpeta donde está el ejecutable "Execute-ACLight2.bat"
 3) Ejecutar el ejecutable (doble clic) "Execute-ACLight2.bat" 
 4) Revisare los archivos en la carpeta ACLight-master\Results
