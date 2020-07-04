@@ -7,5 +7,5 @@
 4. **PowerView**: is a tool to enumerate permissions in AD.
 5. **RiskySPNs**: is a collection of PowerShell scripts focused on detecting and abusing accounts associated with SPNs (Service Principal Name)
 6. **BloodHound**: is a tool to enumerate permissions in AD.
-7. 
+7. **Invoke-TrimarcADChecks**: is a tool which gathers information about potential security issues.
 
