@@ -2,6 +2,13 @@
 
 # Lista de Herramientas:
 1. [**ACLight**](https://github.com/cyberark/ACLight) : A tool for advanced discovery of Privileged Accounts - including Shadow Admins.
+```
+Pasos: (esto lo puede ejecutar con una cuenta estándar)
+1) Descargar el archivo zip que contiene los scripts y descomprimirlos
+2) Ir a las carpeta donde está el ejecutable "Execute-ACLight2.bat"
+3) Ejecutar el ejecutable (doble clic) "Execute-ACLight2.bat" 
+4) Revisare los archivos en la carpeta ACLight-master\Results
+```
 2. [**Ping Castle**](https://github.com/vletoux/pingcastle): is a tool designed to assess quickly the Active Directory security level with a methodology based on risk assessment and a maturity framework.
 3. [**ADRecon**](https://github.com/sense-of-security/ADRecon): is a tool which gathers information about the Active Directory and generates a report.
 4. [**PowerView**](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1): is a tool to enumerate permissions in AD.
