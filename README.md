@@ -8,5 +8,5 @@
 5. [**RiskySPNs**](https://github.com/cyberark/RiskySPN): is a collection of PowerShell scripts focused on detecting and abusing accounts associated with SPNs (Service Principal Name)
 6. [**BloodHound**](https://github.com/BloodHoundAD/BloodHound): is a tool to enumerate permissions in AD.
 7. [**Invoke-TrimarcADChecks**](https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review): is a tool which gathers information about potential security issues.
-8. **AD ACL Scanner**: is a tool to enumerate permissions in AD.
+8. [**AD ACL Scanner**](https://github.com/canix1/ADACLScanner): is a tool to enumerate permissions in AD.
 
