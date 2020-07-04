@@ -16,7 +16,7 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 2) Ir a las carpeta (PingCastle_2.8.1.0 ) donde está el ejecutable " PingCastle.exe"
 3) Ejecutar el ejecutable (doble clic) "PingCastle.exe " 
 4) seleccione la opcion 1- healthcheck-Score the risk of a domain luego presione enter
-4) Revisare el archivo: ad_hc_<domain>.html
+5) Revisare el archivo: ad_hc_<domain>.html
 ```
 3. [**ADRecon**](https://github.com/sense-of-security/ADRecon): is a tool which gathers information about the Active Directory and generates a report.
 4. [**PowerView**](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1): is a tool to enumerate permissions in AD.
