@@ -19,6 +19,13 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 5) Revisare el archivo: ad_hc_<domain>.html
 ```
 3. [**ADRecon**](https://github.com/sense-of-security/ADRecon): is a tool which gathers information about the Active Directory and generates a report.
+```
+Pasos: (esto lo puede ejecutar con una cuenta estándar)
+1) Descargar el archivo zip (https://github.com/adrecon/ADRecon/archive/master.zip  )  que contiene los scripts y descomprimirlos
+2) Ir a las carpeta (ADRecon-master) donde está el PowerShell " ADRecon.ps1"
+3) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " .\ADRecon.ps1" 
+4) Revisar la carpeta ADRecon-master\ADRecon-Report-XXXXXX  que contiene CSV-Files y un Excel con un resumen  <Domain>-ADRecon-Report.xlsx
+```
 4. [**PowerView**](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1): is a tool to enumerate permissions in AD.
 5. [**RiskySPNs**](https://github.com/cyberark/RiskySPN): is a collection of PowerShell scripts focused on detecting and abusing accounts associated with SPNs (Service Principal Name)
 6. [**BloodHound**](https://github.com/BloodHoundAD/BloodHound): is a tool to enumerate permissions in AD.
