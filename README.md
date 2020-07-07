@@ -22,33 +22,37 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://github.com/adrecon/ADRecon/archive/master.zip  )  que contiene los scripts y descomprimirlos
-2) Ir a las carpeta (ADRecon-master) donde está el PowerShell " ADRecon.ps1"
-3) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " .\ADRecon.ps1" 
-4) Revisar la carpeta ADRecon-master\ADRecon-Report-XXXXXX  que contiene CSV-Files y un Excel con un resumen  <Domain>-ADRecon-Report.xlsx
+2) Ejecutar en PowerShell la siguinete politica:  "set-executionpolicy unrestricted"
+3) Ir a las carpeta (ADRecon-master) donde está el PowerShell " ADRecon.ps1"
+4) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " .\ADRecon.ps1" 
+5) Revisar la carpeta ADRecon-master\ADRecon-Report-XXXXXX  que contiene CSV-Files y un Excel con un resumen  <Domain>-ADRecon-Report.xlsx
 ```
 4. [**PowerView**](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1): is a tool to enumerate permissions in AD.
 5. [**RiskySPNs**](https://github.com/cyberark/RiskySPN): is a collection of PowerShell scripts focused on detecting and abusing accounts associated with SPNs (Service Principal Name)
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://github.com/cyberark/RiskySPN/archive/master.zip)  que contiene los scripts y descomprimirlos
-2) Ir a las carpeta (RiskySPN-master) e importar el módulo RiskySPNs "Import-Module .\RiskySPNs.psm1"
-3) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  "Find-PotentiallyCrackableAccounts -Sensitive -Stealth -GetSPNs" 
-4) Revisar las cuentas con SPN
+2) Ejecutar en PowerShell la siguinete politica:  "set-executionpolicy unrestricted"
+3) Ir a las carpeta (RiskySPN-master) e importar el módulo RiskySPNs "Import-Module .\RiskySPNs.psm1"
+4) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  "Find-PotentiallyCrackableAccounts -Sensitive -Stealth -GetSPNs" 
+5) Revisar las cuentas con SPN
 ```
 6. [**BloodHound**](https://github.com/BloodHoundAD/BloodHound): is a tool to enumerate permissions in AD.
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://github.com/BloodHoundAD/BloodHound/archive/master.zip)  que contiene los scripts y descomprimirlos
-2) Ir a las carpeta (BloodHound-master\Ingestors) e importar el módulo SharpHound  " .\SharpHound.ps1"
-3) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " Invoke-BloodHound -CollectionMethod All -Domain  <youdDomain>" 
-4) Revisar  el archivo zip generado  XXXXXXXX_BloodHound.zip e importarlo a  la consola de BloodHound 
+2) Ejecutar en PowerShell la siguinete politica:  "set-executionpolicy unrestricted"
+3) Ir a las carpeta (BloodHound-master\Ingestors) e importar el módulo SharpHound  " .\SharpHound.ps1"
+4) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " Invoke-BloodHound -CollectionMethod All -Domain  <youdDomain>" 
+5) Revisar  el archivo zip generado  XXXXXXXX_BloodHound.zip e importarlo a  la consola de BloodHound 
 ```
 7. [**Invoke-TrimarcADChecks**](https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review): is a tool which gathers information about potential security issues.
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review)  que contiene los scripts  llamado Invoke-TrimarcADChecks
-2) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " .\Invoke-TrimarcADChecks
-3) Revisar  los csv e informes en txt generados por la herramientas de los principales errores de configuración en AD.
+2) Ejecutar en PowerShell la siguinete politica:  "set-executionpolicy unrestricted"
+3) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " .\Invoke-TrimarcADChecks
+4) Revisar  los csv e informes en txt generados por la herramientas de los principales errores de configuración en AD.
 ```
 8. [**AD ACL Scanner**](https://github.com/canix1/ADACLScanner): is a tool to enumerate permissions in AD.
 
