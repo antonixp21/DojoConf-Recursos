@@ -44,5 +44,11 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 4) Revisar  el archivo zip generado  XXXXXXXX_BloodHound.zip e importarlo a  la consola de BloodHound 
 ```
 7. [**Invoke-TrimarcADChecks**](https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review): is a tool which gathers information about potential security issues.
+```
+Pasos: (esto lo puede ejecutar con una cuenta estándar)
+1) Descargar el archivo zip (https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review)  que contiene los scripts  llamado Invoke-TrimarcADChecks
+2) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " .\Invoke-TrimarcADChecks
+3) Revisar  los csv e informes en txt generados por la herramientas de los principales errores de configuración en AD.
+```
 8. [**AD ACL Scanner**](https://github.com/canix1/ADACLScanner): is a tool to enumerate permissions in AD.
 
