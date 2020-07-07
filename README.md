@@ -36,6 +36,13 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 4) Revisar las cuentas con SPN
 ```
 6. [**BloodHound**](https://github.com/BloodHoundAD/BloodHound): is a tool to enumerate permissions in AD.
+```
+Pasos: (esto lo puede ejecutar con una cuenta estándar)
+1) Descargar el archivo zip (https://github.com/BloodHoundAD/BloodHound/archive/master.zip)  que contiene los scripts y descomprimirlos
+2) Ir a las carpeta (BloodHound-master\Ingestors) e importar el módulo SharpHound  " .\SharpHound.ps1"
+3) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " Invoke-BloodHound -CollectionMethod All -Domain  <youdDomain>" 
+4) Revisar  el archivo zip generado  XXXXXXXX_BloodHound.zip e importarlo a  la consola de BloodHound 
+```
 7. [**Invoke-TrimarcADChecks**](https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review): is a tool which gathers information about potential security issues.
 8. [**AD ACL Scanner**](https://github.com/canix1/ADACLScanner): is a tool to enumerate permissions in AD.
 
