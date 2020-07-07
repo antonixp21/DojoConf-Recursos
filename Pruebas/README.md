@@ -1,4 +1,10 @@
 ```
+setspn –A MSSQLSvc/PLABWIN10.PRACTICELABS.COM:1433 PRACTICELABS\DBServiceUser01
+setspn –A MSSQLSvc/PLABWIN810.PRACTICELABS.COM:1433 PRACTICELABS\DBServiceUser02
+setspn –A MSSQLSvc/PLABDM01.PRACTICELABS.COM:1433 PRACTICELABS\DBServiceUser03
+```
+
+```
 Import-Module .\Invoke-HoneypotBuster.ps1
 Invoke-HoneypotBuster
 ```
