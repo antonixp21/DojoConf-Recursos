@@ -1,3 +1,7 @@
+```
+Import-Module .\Invoke-HoneypotBuster.ps1
+Invoke-HoneypotBuster
+```
 
 Shared Folder
 ```
