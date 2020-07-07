@@ -43,7 +43,7 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://github.com/BloodHoundAD/BloodHound/archive/master.zip)  que contiene los scripts y descomprimirlos
 2) Ejecutar en PowerShell la siguinete politica:  "set-executionpolicy unrestricted"
 3) Ir a las carpeta (BloodHound-master\Ingestors) e importar el módulo SharpHound  " .\SharpHound.ps1"
-4) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " Invoke-BloodHound -CollectionMethod All -Domain  <youdDomain>" 
+4) Ejecutar el PowerShell utilizando CMD o Windows PowerShell  " Invoke-BloodHound -CollectionMethod All -Domain PRACTICELABS.COM" 
 5) Revisar  el archivo zip generado  XXXXXXXX_BloodHound.zip e importarlo a  la consola de BloodHound 
 ```
 7. [**Invoke-TrimarcADChecks**](https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review): is a tool which gathers information about potential security issues.
