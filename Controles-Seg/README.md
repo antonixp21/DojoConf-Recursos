@@ -33,3 +33,4 @@ A Nivel de Servidor:
 ![LDAPSigning](https://github.com/antonixp21/DojoConf-Recursos/blob/master/Imagenes/ldap.png)
 # Aplicar políticas a nivel de Firewall para bloquear el tráfico LLMNR / NetBIOS
 # Deshabilitar el protocolo LM/NTLMv1 a través de Políticas de grupos (GPO)
+![Disable_NTLM](https://github.com/antonixp21/DojoConf-Recursos/blob/master/Imagenes/Disable_NTLM.png)
