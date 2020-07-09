@@ -24,10 +24,10 @@ Write-Host("----- NetBIOS is now disabled -----")
 # Deshabilitar el protocolo Web Proxy Auto-Discovery (WPAD) mediante Política de grupo (GPO)
 
 # Habilitar SMB signing (Require SMB Signing) a través de Política de grupo (GPO)
-a nivel de Cleinte:
+A Nivel de Cliente:
 ![LLMNR](https://github.com/antonixp21/DojoConf-Recursos/blob/master/Imagenes/SMB-Signing-Cliente.png)
 
-a Nivel de Servidor:
+A Nivel de Servidor:
 ![LLMNR](https://github.com/antonixp21/DojoConf-Recursos/blob/master/Imagenes/SMB-Signing-Server.png)
 # Habilitar LDAP Signing & LDAP Channel Binding  over TLS (Require LDAP Signing) a través de Política de grupo (GPO)
 # Aplicar políticas a nivel de Firewall para bloquear el tráfico LLMNR / NetBIOS
