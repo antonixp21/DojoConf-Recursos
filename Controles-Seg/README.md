@@ -1,5 +1,6 @@
 
 # Deshabilitar el protocolo LLMNR a través de Políticas de grupos (GPO)
+
 # Deshabilitar el protocolo NBT-NS a través de Políticas de grupos (GPO)
 # Deshabilitar el protocolo Web Proxy Auto-Discovery (WPAD) mediante Política de grupo (GPO)
 # Habilitar SMB signing (Require SMB Signing) a través de Política de grupo (GPO)
