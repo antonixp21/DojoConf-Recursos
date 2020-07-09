@@ -30,5 +30,6 @@ A Nivel de Cliente:
 A Nivel de Servidor:
 ![LLMNR](https://github.com/antonixp21/DojoConf-Recursos/blob/master/Imagenes/SMB-Signing-Server.png)
 # Habilitar LDAP Signing & LDAP Channel Binding  over TLS (Require LDAP Signing) a través de Política de grupo (GPO)
+![LDAPSigning](https://github.com/antonixp21/DojoConf-Recursos/blob/master/Imagenes/ldap.png)
 # Aplicar políticas a nivel de Firewall para bloquear el tráfico LLMNR / NetBIOS
 # Deshabilitar el protocolo LM/NTLMv1 a través de Políticas de grupos (GPO)
