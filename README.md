@@ -2,7 +2,7 @@
 
 # Lista de Herramientas:
 1. [**ACLight**](https://github.com/cyberark/ACLight) : A tool for advanced discovery of Privileged Accounts - including Shadow Admins.
-![ACLight](https://vimeo.com/user119347839/review/437427558/5eb223be08)
+
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://github.com/cyberark/ACLight/archive/master.zip)  que contiene los scripts y descomprimirlos
