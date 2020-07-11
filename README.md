@@ -55,6 +55,7 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 5) Revisar  el archivo zip generado  XXXXXXXX_BloodHound.zip e importarlo a  la consola de BloodHound 
 ```
 7. [**Invoke-TrimarcADChecks**](https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review): is a tool which gathers information about potential security issues.
+[**clic aquí para ver la demostración:**](https://vimeo.com/user119347839/review/437428819/c67e9b0a30)
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review)  que contiene los scripts  llamado Invoke-TrimarcADChecks
