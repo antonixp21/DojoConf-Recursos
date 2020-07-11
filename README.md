@@ -35,6 +35,7 @@ Pasos: (esto lo puede ejecutar con una cuenta estándar)
 ```
 4. [**PowerView**](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1): is a tool to enumerate permissions in AD.
 5. [**RiskySPNs**](https://github.com/cyberark/RiskySPN): is a collection of PowerShell scripts focused on detecting and abusing accounts associated with SPNs (Service Principal Name)
+[**clic aquí para ver la demostración:**](https://vimeo.com/user119347839/review/437428603/90def9c0e1)
 ```
 Pasos: (esto lo puede ejecutar con una cuenta estándar)
 1) Descargar el archivo zip (https://github.com/cyberark/RiskySPN/archive/master.zip)  que contiene los scripts y descomprimirlos
